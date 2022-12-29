@@ -35,16 +35,16 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Wanna hear a joke?</h1>
+            <h1>Here's the hotfix</h1>
           </div>
           <div className="header-subtitle">
-            <h2>This is an automatic offensive joke generator, so If this joke is too offensive, blame the AI :|</h2>
+            <h2>This is the place where you can get a hotfix for your daily problems</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
               className="prompt-box"
-              placeholder="Give me a topic..."
+              placeholder="What is your problem?"
               value={userInput}
               onChange={onUserChangedText}
           />;
@@ -59,7 +59,7 @@ const Home = () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3>Output</h3>
+        <h3>This is your hotfix</h3>
       </div>
     </div>
     <div className="output-content">

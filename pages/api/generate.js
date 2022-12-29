@@ -5,7 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = "Write me short and funny offensive joke in George Carlin style for a specified topic:";
+const basePromptPrefix = "Write me an absurd short and easy one sentence solution mocking this specified problem:";
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
